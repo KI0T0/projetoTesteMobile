@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoTeste">
         <activity
+            android:name=".ActCadCliente"
+            android:label="@string/title_activity_act_cad_cliente"
+            android:theme="@style/Theme.ProjetoTeste.NoActionBar"></activity>
+        <activity
             android:name=".ActMain"
             android:label="@string/title_activity_act_main"
             android:theme="@style/Theme.ProjetoTeste.NoActionBar">
