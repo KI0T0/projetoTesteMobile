@@ -1,5 +1,7 @@
 package com.example.projetoteste;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -20,12 +22,19 @@ public class ActMain extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        /*fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                public void onClick(View view) {
+
             }
-        });
+
+
+        });*/
+    }
+
+    public void cadastrar(View view){
+        Intent it = new Intent(ActMain.this, ActCadCliente.class);
+        startActivity(it);
+
     }
 }
