@@ -18,9 +18,5 @@ public class ActCadCliente extends AppCompatActivity {
         setContentView(R.layout.act_cad_cliente);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
-
-
     }
 }
