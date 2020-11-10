@@ -1,5 +1,6 @@
 package com.example.projetoteste;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -21,12 +22,19 @@ public class ActMain extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        /*fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent it = new Intent(ActMain.this, ActCadCliente.class);
-                startActivity(it);
+              public void onClick(View view) {
+
             }
-        });
+
+
+        });*/
+    }
+
+    public void cadastrar(View view){
+        Intent it = new Intent(ActMain.this, ActCadCliente.class);
+        startActivity(it);
+
     }
 }
