@@ -3,6 +3,9 @@ package com.example.projetoteste;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.EditText;
 
@@ -25,5 +28,14 @@ public class ActCadCliente extends AppCompatActivity {
         edtEmail = (EditText)findViewById(R.id.edtEmail);
         edtTelefone = (EditText)findViewById(R.id.edtTelefone);
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_act_cad_cliente, menu);
+
+        return super.onCreateOptionsMenu(menu);
     }
 }
