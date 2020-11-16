@@ -17,4 +17,9 @@
     <string name="title_menu_ok">OK</string>
     <string name="title_menu_cancelar">Cancelar</string>
     <string name="title_activity_teste">teste</string>
+    <string name="title_aviso">Aviso!</string>
+    <string name="msg__campos_invalidos_brancos">Há campos inválidos ou em branco!</string>
+    <string name="lbl_Ok">OK</string>
+    <string name="msg_pesquisa_sucesso">Pesquisa realizada com sucesso!</string>
+    <string name="msg_pesquisa_falhou">Conexão com o servidor falhou!</string>
 </resources>
